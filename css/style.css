@@ -375,7 +375,7 @@ section {
   border-radius: 8px;
   transition: transform 0.3s;
   box-sizing: border-box;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 /* Apply a box-shadow to give a subtle depth effect */
@@ -558,4 +558,15 @@ a {
 
 .kids:nth-child(4) {
   color: rgb(236, 154, 0);
+}
+
+
+
+
+/*_____section sections__________________________________________*/
+
+
+.midfour {
+  width: 500px;
+  margin-left: 665px;
 }

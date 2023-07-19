@@ -1,0 +1,561 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header and Navigation Styles */
+  
+  header {
+    background-color: #111;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #333;
+  }
+  
+  .navbar .active {
+    background-color: #4CAF50;
+  }
+  
+  /* Hero Section Styles */
+  
+  /* .hero is where it says Welcome to Nasa section
+  to just below the learn more button */
+  .hero {
+    background-image: url(../img/nasa2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+    margin: 100px;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Other Section Styles */
+  
+  section {
+    padding: 50px;
+    text-align: center;
+    background: rgb(31, 31, 31);
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #111;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+h2 , p {
+  color: white;
+}
+
+.nasa-link{
+  text-decoration: none;
+  color: green;
+}
+
+/* Below are the sections */
+.mission{
+  background: black;
+}
+
+.astronauts {
+  background: gray;
+}
+
+.gallery {
+  background: black;
+}
+
+.contact {
+  background: rgb(87, 87, 87);
+}
+
+
+
+
+/* _______________________________________________________________ */
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #111;
+  padding: 20px;
+  color: #fff;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #333;
+}
+
+.navbar .active {
+  background-color: #4CAF50;
+}
+
+/*  the above is all nav bar related */
+/*  the below is all body related */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.astronauts-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.astronaut {
+  width: 30%;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.astronaut img {
+  width: 100%;
+  height: auto;
+}
+
+.astronaut:hover {
+  transform: scale(1.1);
+}
+
+
+/* ___________________________________________________________________________________________________________ */
+
+body {
+font-family: Arial, sans-serif;
+background-color: #000000;
+color: #FFFFFF;
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 960px;
+margin: 0 auto;
+padding: 40px;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.astronauts-section {
+display: flex;
+justify-content: space-between;
+}
+
+.astronaut {
+width: 30%;
+margin-bottom: 40px;
+position: relative;
+overflow: hidden;
+cursor: pointer;
+}
+
+.astronaut-image {
+position: relative;
+}
+
+.astronaut img {
+width: 100%;
+height: auto;
+}
+
+.astronaut-name {
+position: absolute;
+bottom: 10px;
+left: 10px;
+font-size: 18px;
+font-weight: bold;
+color: #FFFFFF;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 10px;
+}
+
+
+/* .container {
+  background-image: url();
+} */
+
+body {
+  background-image: url(../img/space1.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: Arial, sans-serif;
+  color: rgb(165, 165, 247);
+}
+
+
+/* ______________________________________________________________________ */
+
+/* Our mission */
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: serif;
+}
+
+.missions-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission {
+  width: 30%;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.mission img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.mission:hover img {
+  transform: scale(1.1);
+}
+
+.mission-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mission-details h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.mission-details p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+/* _____________________________________________________________________________________ */
+
+/* Add the following CSS code to your existing style.css file */
+
+/* Set some common styles for sections */
+/* Add the following CSS code to your existing style.css file */
+
+/* Set common styles for sections */
+section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+/* Apply a box-shadow to give a subtle depth effect */
+section:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  overflow: hidden; 
+}
+
+/* Adjust the typography styles for section headings */
+section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Adjust the typography styles for section paragraphs */
+section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Ensure the sections fit within the viewport */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+
+
+
+.mission1 {
+  background-image: url(../img/sun.jpg);
+  margin: 48px;
+  opacity: 0.8;
+}
+
+.astronauts {
+  background-image: url(../img/sun.jpg);
+  margin: 48px;
+  opacity: 0.8;
+}
+
+.gallery {
+  background-image: url(../img/sun.jpg);
+  margin: 48px;
+  opacity: 0.8;
+}
+
+.contact {
+  background-image: url(../img/sun.jpg);
+  margin: 48px;
+  opacity: 0.8;
+}
+
+
+.input {
+  height: 500px;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.galleryh1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.instruct {
+  margin-left: 750px;
+}
+
+
+
+
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: 400px;
+}
+
+
+.contact2 {
+  border: 1px solid green;
+  margin: 50px;
+  margin-top: 100px;
+  background-image: url(../img/earth1.jpg);
+}
+
+.contactlink{
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+
+.contactimg {
+  height: 600px;
+  width: 600px;
+  margin-left: 600px;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+/* Common button styles */
+.button6 {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+/* Green button styles */
+.button6 {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+/* Green button hover effect */
+.button6:hover {
+  background-color: #45a049;
+}
+
+
+
+
+.input:empty::before {
+  content: " ";
+  display: block;
+  padding-bottom: 100%;
+  background-image: none; 
+}
+
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+/* Add a class to target the letters in "kids" */
+.kids {
+  display: inline-block;
+}
+
+/* Apply different colors to each letter */
+.kids:nth-child(5) {
+  color: rgb(255, 0, 0);
+}
+
+.kids:nth-child(2) {
+  color: rgb(190, 12, 245);
+}
+
+.kids:nth-child(3) {
+  color: rgb(0, 155, 8);
+}
+
+.kids:nth-child(4) {
+  color: rgb(236, 154, 0);
+}

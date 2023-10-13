@@ -4,6 +4,8 @@
 
 **Space Exploration for Kids** is an engaging and educational website designed to spark young minds' curiosity about space. This platform provides an exciting journey through space exploration, offering access to NASA's vast collection of space images through a user-friendly calendar selector.
 
+<img src=https://github.com/ItsReallyLucifer/NasaExploration/blob/a3985d3125dd9e72be30ce81a9cd055903a9610d/spaceStatic.png >
+
 ## Features
 
 - **NASA Image Gallery**: Explore an extensive collection of captivating space images provided by NASA.
